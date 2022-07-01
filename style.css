@@ -1,0 +1,172 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'montserrat';
+    src: url(fontes/Montserrat-Italic-VariableFont_wght.ttf ) format('TrueType'), url(fontes/Montserrat-VariableFont_wght.ttf) format('TrueType');
+}
+@font-face {
+    font-family:'pollishoper';
+    src: url(fontes/Philosopher-Italic.ttf) format('TrueType'), url(fontes/Philosopher-Bold.ttf) format('TrueType');
+}
+@font-face {
+    font-family:'subway';
+    src: url(fontes/Subway-Black.ttf) format('TrueType');
+}
+
+body{
+    background-color: #83E1AD;
+    margin: 0%;
+}
+header{
+    background-image: linear-gradient(to bottom, #063D1E,  #2ea162);
+    height: 35vh;
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 15px -3px;
+}
+header > h1{
+    color: wheat;
+    font-family: 'subway';
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 0%;
+}
+header > p{
+    color: wheat;
+    font-family: 'pollishoper';
+    font-size: 1.2em;
+    max-width: 450px;
+    margin: auto;
+    padding: 15px 10px 15px 10px ;
+}
+nav{
+    background-color: #2ea162;
+}
+nav > a{
+    background-color: wheat;
+    color: #2ea162;
+    font-family: 'pollishoper';
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+main{
+    background-color: #77ce9e;
+    box-shadow: 1px -2px 11px -6px;
+    width: 88%;
+    min-width: 300px;
+    max-width: 100vw;
+    margin: auto;
+}
+main > div > h1{
+    font-family: 'subway';
+    padding-top: 30px;
+    margin-top: 0%;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+div > p{
+    color: #063D1E;
+    background-color: #81dfab9c;
+    border: 1px solid #81dfab9c;
+    font-family: 'montserrat';
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 2em;
+    width: 85%;
+    margin: auto;
+    box-shadow: 0px 0px 10px -1px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 30px;
+}
+div > h2{
+    font-family: 'subway';
+    font-size: 1.8em;
+    text-align: left;
+    padding:15px ;
+    text-align: center;
+    width: 90%;
+}
+div > picture > img{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+div > picture > img.pequena{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+div.video{
+    background-color: #0f864388;
+    margin: 0px 0px 30px 0px;
+    padding: 20px;
+    padding-bottom: 40%;
+    border-radius: 5px;
+    position: relative;
+
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    box-shadow: 0px -1px 12px -1px;
+    border-radius: 6px;
+}
+article{
+    font-family: 'pollishoper';
+    font-weight: bold;
+    background-color: #0f864388;;
+    width: 84%;
+    border-radius: 6px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+article > h3{
+    background-color: #063D1E;
+    border-radius: 6px 6px 0px 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 0%;
+    height: 40px;
+}
+article > p{
+    background-color: #81dfab9c;
+    border: 1px solid #81dfab9c;
+    font-family: 'montserrat';
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 2em;
+    width: 85%;
+    margin: auto;
+    box-shadow: 0px 0px 10px -1px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 15px;
+}
+article > ul{
+    font-family: 'pollishoper';
+    font-size: 1.2em;
+    list-style-type: '\2714\00A0\00A0';
+    color: rgb(49, 49, 49);
+    columns: 2;
+    padding-left: 70px;
+}
+footer{
+    color: black;
+    background-color: #063D1E;
+    text-align: center;
+}
+footer > a{
+    color: black;
+    text-decoration: none;
+    font-family: 'montserrat';
+}
